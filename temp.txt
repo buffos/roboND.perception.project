@@ -1,0 +1,10 @@
+# run stick to capture
+roslaunch sensor_stick training.launch
+# in another tab to capture (from inside scripts folder)
+./capture_features.py 
+# to train 
+./train_svm.py
+# to launch the pick and place project
+roslaunch pr2_robot pick_place_project.launch
+# to actually run the code to predict.
+./project.py
