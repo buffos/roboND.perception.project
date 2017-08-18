@@ -90,7 +90,7 @@ and the normalized confusion matrix
 
 ## Pick and Place Setup
 
-The 3 test worlds are used to test out the object recognition model. The outputs are saved in output_1.yaml, output_2.yaml, output_3.yaml.
+The 3 test worlds are used to test out the object recognition model. The outputs are saved in output_1.yaml, output_2.yaml, output_3.yaml, inside /perception/pr2_robot/scripts folder.
 At the place coordinates, I added **random noise** in the x and y coordinates, to avoid the stacking pieces problem as reported in the lessons
 
 The pipeline achieved the following results:
